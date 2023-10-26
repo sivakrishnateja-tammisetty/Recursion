@@ -1,3 +1,9 @@
+RECURSION:A function that calls itself.(solve a problem by using small instance of the same problem).
+    1.ASSUMPTION:what function will do.
+    2. LOGIC:Actual recursion equation.
+    3.BASE CONDITION:used for stop/terminate the recursion
+
+
 //PRINTING FIB SERIES FOR GIVEN TERM
 #include <iostream>
 using namespace std;
