@@ -1,0 +1,16 @@
+//PRINTING FIB SERIES FOR GIVEN TERM
+#include <iostream>
+using namespace std;
+int fibanocci(int n)
+{
+    if(n==1 || n==2)
+    {
+        return 1;
+    }
+    return fibanocci(n-1)+fibanocci(n-2);
+}
+int main() {
+   int n=4;
+   cout<<fibanocci(n)<<endl;
+    return 0;
+}
