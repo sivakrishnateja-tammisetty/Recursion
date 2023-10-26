@@ -76,3 +76,24 @@ int n=4;
 
 PRINT(n);
 return 0;}
+
+
+//PRINT NUMBERS FROM GIVEN NUMBER IN INCREASING ORDER USING RECURSION
+#include<iostream>
+using namespace std;
+void PRINT(int n)
+{
+    if(n==0)
+    {
+        return;
+    }
+    PRINT(n-1);
+    cout<<n<<" ";
+
+}
+int main()
+{
+int n=4;
+
+PRINT(n);
+return 0;}
